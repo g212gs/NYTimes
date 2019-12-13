@@ -58,14 +58,6 @@ enum TimePeriod : String {
 }
 
 
-// API URLS
-let APIKey = "UTlHiPJQwOyDGJcprYiurIP2LwjqBqYa"
-let kAPIPeriods:Int = 7
-let kAPISections = "all-sections"
-let API_BASE_URL: String = "http://api.nytimes.com/svc/mostpopular/v2/mostviewed/"
-
-let API_URL = API_BASE_URL + "/\(kAPISections)" + "/\(kAPIPeriods)" + ".json?api-key=\(APIKey)"
-
 extension String {
     
     /// Percent escapes values to be added to a URL query as specified in RFC 3986
